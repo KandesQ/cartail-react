@@ -1,0 +1,25 @@
+.phone-link
+{
+    color: black;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    transition: 0.2s;
+}
+
+.phone-link:hover
+{
+    color: #8ED74F;
+}
+
+.phone-link:hover
+.phone-icon--default
+{
+    opacity: 0;
+}
+
+.phone-link:hover
+.phone-icon--hovered
+{
+    opacity: 1;
+}
