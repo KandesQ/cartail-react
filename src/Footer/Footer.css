@@ -1,0 +1,111 @@
+footer
+{
+    margin-top: 65px;
+    background-color: white;
+}
+
+.footer__menu
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 13%;
+    height: 150px;
+}
+
+.footer__info
+{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    text-align: center;
+}
+
+.footer__title
+{
+    display: inline;
+    font-size: 0.66rem;
+    font-weight: 400;
+    margin: 0;
+    padding: 0 25px;
+    line-height: 2;
+}
+
+.link-list
+{
+    display: flex;
+    gap: 20px;
+}
+
+.link-list__item
+{
+    text-decoration: underline;
+    color: black;
+    font-weight: 400;
+    font-size: 0.66rem;
+    transition: 0.2s;
+}
+
+.link-list__item:hover
+{
+    text-decoration: none;
+    opacity: 0.5;
+}
+
+.contacts
+{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 15px;
+}
+
+.social-networks-list
+{
+    display: flex;
+    gap: 20px;
+}
+
+@media (max-width: 1024px)
+{
+    .footer__menu
+    {
+        flex-direction: column;
+        height: auto;
+        padding-bottom: 40px;
+    }
+
+    .footer__logo
+    {
+        margin-top: 30px;
+    }
+
+    .footer__info
+    {
+        margin-top: 25px;
+    }
+
+    .contacts
+    {
+        margin-top: 35px;
+    }
+}
+
+@media (max-width: 600px)
+{
+    .footer__logo
+    {
+        width: 100px;
+        height: 49px;
+    }
+
+    .link-list
+    {
+        flex-direction: column;
+    }
+    
+    .footer__phone-number
+    {
+        font-size: 0.85rem;
+    }
+}

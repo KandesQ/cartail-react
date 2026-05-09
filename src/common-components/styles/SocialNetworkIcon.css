@@ -1,0 +1,29 @@
+.social-network-icon
+{
+    height: 34px;
+    width: 34px;
+    position: relative;
+}
+
+.social-network-icon:hover .social-network-icon--hovered
+{
+    opacity: 1;
+}
+
+.social-network-icon--default
+{
+    height: 100%;
+    width: 100%;
+    transition: 0.2s;
+}
+
+.social-network-icon--hovered
+{
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    opacity: 0;
+    transition: 0.2s;
+}
