@@ -1,0 +1,27 @@
+.work-process__item
+{
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+    gap: 25px;
+    align-items: start;
+}
+
+.work-process-item__number
+{
+    color: #8ED74F;
+}
+
+.work-process__item-title
+{
+    line-height: 30px;
+    font-weight: 500;
+    font-size: 1.11rem;
+}
+
+.work-process__item-description
+{
+    font-weight: 400;
+    font-size: 0.88rem;
+    line-height: 25px;
+}

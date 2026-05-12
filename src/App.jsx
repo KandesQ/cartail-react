@@ -6,12 +6,14 @@ import './App.css'
 
 import Header from './Header/Header'
 import Footer from './Footer/Footer'
+import WorkProcess from './WorkProcess/WorkProcess'
 
 function App()
 {
   return (
     <>
       <Header />
+      <WorkProcess />
       <Footer/>
     </>
   )

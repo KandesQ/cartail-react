@@ -1,0 +1,35 @@
+.work-process
+{
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 111px;
+    align-items: center;
+}
+
+.work-process__title
+{
+    text-align: center;
+    font-size: 1.93rem;
+    line-height: 60px;
+    padding: 0 35px;
+    font-weight: 450;
+}
+
+.work-process__list
+{
+    display: flex;
+    gap: 97px;
+    flex-wrap: wrap;
+    padding: 0 50px;
+    justify-content: center;
+}
+
+@media (max-width: 1024px)
+{
+    .work-process__item
+    {
+        align-items: center;
+        text-align: center;
+    }
+}
