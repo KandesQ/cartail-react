@@ -1,0 +1,174 @@
+.services 
+{
+    display: flex;
+    margin-top: 130px;
+}
+
+.services__sell-car
+{
+    background-color: #8ED74F;
+    display: flex;
+    width: 100%;
+    height: 286px;
+    align-items: center;
+    justify-content: end;
+    text-align: center;
+    gap: 6%;
+}
+
+.services__car-icon
+{
+    max-width: 499.2px;
+    width: 52%;
+    min-width: 470px;
+    height: 78%;
+}
+
+.services__title
+{
+    font-weight: 450;
+    font-size: 1.66rem;
+}
+
+.services__sell-car-title
+{
+    padding-right: 9%;
+}
+
+.services__link
+{
+    color: white;
+    line-height: 40px;
+
+    background-image: linear-gradient(currentColor, currentColor);
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+    background-size: 0% 2px;
+
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+
+    transition: background-size 0.4s ease-out;
+}
+
+.services__link:hover
+{
+    background-size: 100% 2px;
+}
+
+.services__pts-loan
+{
+    display: flex;
+    width: 100%;
+    height: 286px;
+    background-color: #27242D;
+    align-items: center;
+    justify-content: start;
+    text-align: center;
+    gap: 15%;
+}
+
+.services__pts-loan-title
+{
+    white-space: nowrap;
+    padding-left: 9%;
+}
+
+.services__pts-icon-wrapper
+{
+    display: flex;
+    align-items: end;
+    height: 100%;
+    max-width: 259px;
+}
+
+.services__pts-icon
+{
+    height: auto;
+    width: 100%;
+}
+
+@media (max-width: 1440px)
+{
+    .services
+    {
+        flex-direction: column;
+    }    
+
+    .services__sell-car
+    {
+        justify-content: center;
+    }
+
+    .services__car-icon
+    {
+        width: 63%;
+        height: 211px;
+    }
+
+    .services__title
+    {
+        font-size: 1.4rem;
+    }
+
+    .services__pts-loan
+    {
+        justify-content: center;
+    }
+
+    .services__pts-icon-wrapper
+    {
+        width: 40%;
+        min-width: 220px;
+    }
+}
+
+@media (max-width: 768px)
+{
+    .services
+    {
+        margin-top: 80px;
+    }
+
+    .services__sell-car
+    {
+        height: 206px;
+        justify-content: flex-end;
+        overflow: hidden;
+    }
+
+    .services__car-icon
+    {
+        height: 176px;
+        min-width: 298px;
+        padding-left: 20px;
+    }
+
+    .services__sell-car-title
+    {
+        padding-right: 12%;
+    }
+
+    .services__pts-loan
+    {
+        height: 206px;
+        justify-content: flex-start;
+        overflow: hidden;
+    }
+
+    .services__pts-icon-wrapper
+    {
+        min-width: 212px;
+        height: 206px;
+    }
+
+    .services__pts-icon
+    {
+        height: 90%;
+    }
+
+    .services__pts-loan-title
+    {
+        padding-left: 12%;
+    }
+}

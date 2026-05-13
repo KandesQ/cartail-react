@@ -6,6 +6,7 @@ import './App.css'
 
 import Header from './Header/Header'
 import Footer from './Footer/Footer'
+import Services from './Services/Services'
 import WorkProcess from './WorkProcess/WorkProcess'
 
 function App()
@@ -13,6 +14,7 @@ function App()
   return (
     <>
       <Header />
+      <Services />
       <WorkProcess />
       <Footer/>
     </>
