@@ -1,9 +1,11 @@
 import './styles/LeadButton.css'
 
-export default function LeadButton({ text })
+export default function LeadButton({ text, onClick })
 {
     return (
-        <button className="lead-button">
+        <button 
+        onClick={onClick}
+        className="lead-button">
             <h4 className="lead-button__text">
                 {text}
             </h4>
